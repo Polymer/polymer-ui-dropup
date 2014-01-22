@@ -28,7 +28,7 @@
     <polymer-ui-menu-item icon="tag">Promos</polymer-ui-menu-item>
   </polymer-ui-dropup>
   <script>
-    document.addEventListener('WebComponentsReady', function() {
+    document.addEventListener('polymer-ready', function() {
       document.querySelector('#search').addEventListener('tap', function() {
         document.querySelector('#dropup').toggle();
       });
